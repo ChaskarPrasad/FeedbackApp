@@ -78,7 +78,7 @@ function FeedbackForm() {
                     <Button type='submit' isDisable={btnDisabled}>Submit</Button>
                 </div>
                 {message && <div className="message">{message}</div>}
-            </form> 
+            </form>
         </Card>
     )
 };
